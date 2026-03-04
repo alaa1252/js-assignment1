@@ -5,42 +5,41 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+<body class="bg-gray-900 flex items-center justify-center min-h-screen">
 
-  <div class="bg-white p-6 rounded-lg shadow w-80">
+  <div class="bg-gray-800 text-white p-6 rounded-lg shadow w-80">
 
-    <h1 class="text-xl font-bold mb-4 text-center">User Card + Calculator</h1>
+    <h1 class="text-xl font-bold mb-4 text-center text-blue-400">
+      User Card + Calculator
+    </h1>
 
     <input id="name" type="text" placeholder="Name"
-      class="w-full border p-2 mb-2 rounded">
+      class="w-full border border-gray-600 bg-gray-700 text-white p-2 mb-2 rounded">
 
     <input id="age" type="number" placeholder="Age"
-      class="w-full border p-2 mb-2 rounded">
+      class="w-full border border-gray-600 bg-gray-700 text-white p-2 mb-2 rounded">
 
     <input id="num1" type="number" placeholder="Number 1"
-      class="w-full border p-2 mb-2 rounded">
+      class="w-full border border-gray-600 bg-gray-700 text-white p-2 mb-2 rounded">
 
     <input id="num2" type="number" placeholder="Number 2"
-      class="w-full border p-2 mb-2 rounded">
+      class="w-full border border-gray-600 bg-gray-700 text-white p-2 mb-2 rounded">
 
     <button onclick="card()"
-      class="w-full bg-blue-500 text-white p-2 rounded mb-2">
+      class="w-full bg-blue-600 p-2 rounded mb-2">
       Create Card
     </button>
 
     <button onclick="calc()"
-      class="w-full bg-green-500 text-white p-2 rounded">
+      class="w-full bg-green-600 p-2 rounded">
       Calculate
     </button>
 
     <div id="output"
-      class="mt-4 bg-gray-100 p-2 rounded text-sm whitespace-pre-wrap">
+      class="mt-4 bg-gray-700 p-2 rounded text-sm whitespace-pre-wrap">
       Result
     </div>
 
   </div>
-
-  <script src="script.js"></script>
-
 </body>
 </html>
